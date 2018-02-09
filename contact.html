@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald" rel="stylesheet">
+    <title>Patrick East</title>
+
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            background-image: url(images/seigaiha.png);
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 40px;
+            line-height: 40px;
+            /* Vertically center the text there */
+            border-top: 5px solid #4aaaa5;
+            text-align: center;
+            font-size: 10px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Oswald', sans-serif;
+            color: #4aaaa5;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Open Sans Condensed', sans-serif;
+            color: #777777;
+            line-height: 1.75rem;
+        }
+
+        .navbar {
+            font-family: 'Oswald', sans-serif;
+            border-bottom: 1px solid #cccccc;
+            color: #777777;
+            margin-bottom: 20px;
+        }
+
+        .nav-item {
+            border-right: 1px solid #eeeeee;
+            color: #777777;
+            padding: 5px;
+        }
+
+        .nav-item a:link {
+            color: #777777;
+        }
+
+        .nav-item a:visited {
+            color: #777777;
+        }
+
+        .nav-item a:hover {
+            color: #4aaaa5;
+        }
+
+        .nav-item a:active {
+            color: #4aaaa5;
+        }
+
+        .navbar-brand {
+            font-size: 28px;
+            background-color: #4aaaa5;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        /* img {
+            width: 50%;
+            margin-right: 10px;
+        } */
+
+        .card-header {
+            font-family: 'Oswald', sans-serif;
+            color: #4aaaa5;
+            font-size: 24px;
+        }
+        
+        .blockquote,
+        .blockquote-footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <span class="navbar-brand" href="#">Patrick East</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Begin body containers and grid layout -->
+    <div class="container">
+        <div class="row">
+            <!-- Start columns. 7 on screens past md specification, to account for Connect aside -->
+            <div class="col-md-7">
+                <!-- Went with the card class in Bootstrap to make life easier -->
+                <div class="card">
+                    <!-- bg-white eliminates the need for custom css -->
+                    <div class="card-header bg-white">
+                        About Me
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <!-- Body copy with image floated left -->
+                            <img class="img-fluid float-left" src="images/East-Designs_Black.png" width="50%">Hi everyone, I'm Patrick. I'm detail-oriented, passionate about design, and constantly driven
+                            to learn. I love utilizing the creative and the technical to see a project go from concepting
+                            to launching. I'm fluent in the Adobe Suite (AI, ID, PS, AE), and I'm currently in a Full Stack
+                            Web Development Boot Camp at DU learning HTML, CSS (Bootstrap), and Javascript (Node.js, React,
+                            Angular). Avid reader, movie-buff, dog-owner, proud husband.
+                        </p>
+                        <p class="blockquote text-info">
+                            “The story is one that you and I will construct together in your memory. If the story means anything to you at all, then
+                            when you remember it afterward, think of it, not as something I created, but rather as something
+                            that we made together”
+                        </p>
+                        <!-- Blockquote-Footer puts a - next to the author -->
+                        <p class="blockquote-footer">
+                            (Orson Scott Card)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Spacer Column Here -->
+            <div class="col-md-1"></div>
+            <!-- Connect with Me Columns -->
+            <div class="col-md-4">
+                <!-- Start Card layout -->
+                <div class="card">
+                    <div class="card-header bg-white text-center">
+                        Connect with Me
+                    </div>
+                    <div class="card-body">
+                        <!-- Dividing social icons into three equal columns -->
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="https://www.github.com/patrickeast" target="_blank">
+                                    <img class="img-fluid" src="images/GitHub.png">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.linkedin.com/in/patrickeast" target="_blank">
+                                    <img class="img-fluid" src="images/LinkedIn.png">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.stackoverflow.com/patrickeast" target="_blank">
+                                    <img class="img-fluid" src="images/Overflow.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer. Went with the default dark as it closely matches the screenshots.-->
+    <footer class="footer bg-dark">
+        <div class="container">
+            <span class="text-muted">&copy; 2018 Patrick East</span>
+        </div>
+    </footer>
+</body>
+
+</html>
