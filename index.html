@@ -11,7 +11,7 @@
     <!-- Custom fonts from Google -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald" rel="stylesheet">
     <!-- Custom CSS link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <!-- Javascript Libraries for collapse nav at sm and xs viewports -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
-            <a class="navbar-brand rounded" href="index.html">Patrick East</a>
+            <a class="navbar-brand rounded" href="#">Patrick East</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon rounded"></span>
@@ -35,12 +35,12 @@
             <div class="collapse navbar-collapse float-right" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About
+                        <a class="nav-link" href="#">About
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -50,55 +50,31 @@
         </div>
     </nav>
 
-    <!-- Main Body Content -->
+    <!-- Main body content -->
     <div class="container">
         <div class="row">
-            <!-- Portfolio Content -->
+            <!-- About Me Content -->
             <div class="col-md-7">
                 <div class="card">
                     <div class="card-header bg-white">
-                        Portfolio
+                        About Me
                     </div>
-                    <div class="card-body" id="portimg">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="../images/Hangman.png">
-                                    <a href="#" class="overlay btn btn-primay">Hangman</a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="../images/rpg.png">
-                                    <a href="#" class="overlay btn btn-primary">RPG Game</a>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="../images/Trivia.png">
-                                    <a href="#" class="overlay btn btn-primary">Trivia Game</a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="../images/info.png">
-                                    <a href="#" class="overlay btn btn-primary">Rutgers Info Widget</a>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="../images/rock.png">
-                                    <a href="#" class="overlay btn btn-primary">Rock Paper Scissors</a>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <img class="img-fluid float-left" src="images/East-Designs_Black.png" width="50%">Hi everyone, I'm Patrick. I'm detail-oriented, passionate about design, and constantly driven
+                            to learn. I love utilizing the creative and the technical to see a project go from concepting
+                            to launching. I'm fluent in the Adobe Suite (AI, ID, PS, AE), and I'm currently in a Full Stack
+                            Web Development Boot Camp at DU learning HTML, CSS (Bootstrap), and Javascript (Node.js, React,
+                            Angular). Avid reader, movie-buff, dog-owner, proud husband.
+                        </p>
+                        <p class="blockquote text-info">
+                            “The story is one that you and I will construct together in your memory. If the story means anything to you at all, then
+                            when you remember it afterward, think of it, not as something I created, but rather as something
+                            that we made together”
+                        </p>
+                        <p class="blockquote-footer">
+                            (Orson Scott Card)
+                        </p>
                     </div>
                 </div>
             </div>
@@ -120,7 +96,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <style type="text/css">
                                             .st0 {
-                                                fill: #444;
+                                                fill: #444444;
                                             }
 
                                             .st2 {
@@ -152,7 +128,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <style type="text/css">
                                             .st0 {
-                                                fill: #444;
+                                                fill: #444444;
                                             }
 
                                             .st1 {
@@ -182,9 +158,11 @@
             </div>
         </div>
     </div>
+
+
     <!-- Footer -->
     <footer class="footer bg-dark">
-        <p class="text-muted">&copy; 2018 Patrick East</p>
+        <span class="text-muted">&copy; 2018 Patrick East</span>
     </footer>
 
 </body>
