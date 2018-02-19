@@ -4,7 +4,9 @@ html {
 }
 
 body {
-    background-image: url(../images/seigaiha.png);
+    background-image: url(../images/bg_mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
