@@ -7,21 +7,21 @@ body {
     background-image: url(../images/bg_mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
 }
 
-.footer {
-    position: fixed;
+footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 40px;
-    /* Vertically center the text there */
-    line-height: 40px;
     border-top: 5px solid #52aa4a;
     text-align: center;
     font-size: 10px;
+}
+
+footer > p {
+    margin: 0 auto;
+    line-height: 30px;
 }
 
 h1,
