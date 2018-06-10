@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(../images/bg_mountains.jpg);
+    background-image: url("../images/bg_night.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
