@@ -68,7 +68,7 @@ p {
 }
 
 .nav-item a:hover {
-    transition: .5s ease;
+    transition: .3s ease;
     color: #52aa4a;
 }
 
@@ -78,6 +78,7 @@ p {
 
 .connect:hover {
     fill: #52aa4a;
+    transition: ease .2s;
 }
 .navbar-brand {
     font-size: 28px;
@@ -88,7 +89,7 @@ p {
 }
 
 .navbar-brand:hover {
-    transition: .5s ease;
+    transition: .3s ease;
     background-color: #338C2A;
     color: #ffffff;
 }
@@ -125,12 +126,12 @@ p {
     text-align: center;
     border: 0;
     font-size: 14px;
-    transition: ease .5s;
+    transition: ease .3s;
 }
 
 .overlay:hover {
     background-color: #52aa4a;
-    transition: ease .5s;
+    transition: ease .3s;
     color: white;
     text-decoration: none;
 }

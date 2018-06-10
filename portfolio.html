@@ -2,30 +2,25 @@
 <html lang="en">
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Bootstrap Stylesheet -->
+    <link rel="shortcut icon" href="./images/East.ico" type="image/x-icon">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <!-- Custom fonts from Google -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald" rel="stylesheet">
-    <!-- Custom CSS link -->
     <link rel="stylesheet" href="assets/style.css">
-    <!-- Javascript Libraries for collapse nav at sm and xs viewports -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <title>Patrick East</title>
 
+    <!-- Title -->
+    <title>Patrick East</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand rounded" href="index.html">Patrick East</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -54,50 +49,68 @@
     <div class="container">
         <div class="row">
             <!-- Portfolio Content -->
-            <div class="col-md-7">
+            <div class="col-md-9">
                 <div class="card">
                     <div class="card-header bg-white">
                         Portfolio
                     </div>
                     <div class="card-body" id="portimg">
-                        <div class="row">
-                            <div class="col-6">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
                                 <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/blankCanvas.png">
-                                    <a href="https://blankcanvas-43876.firebaseapp.com/" target="_blank" class="overlay btn btn-primay">Blank Canvas</a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/Hangman.png">
-                                    <a href="https://patrickeast.github.io/Hangman-Game/" target="_blank" class="overlay btn btn-primay">Hangman</a>
+                                    <img class="img-fluid rounded" src="./images/figment.png">
+                                    <a href="http://figment.observer" target="_blank" class="overlay btn btn-prinary">A Creative Application for Vignettes in under 2,000 Characters.</a>
                                 </div>
                             </div>
                         </div>
                         <br>
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
+                                <div class="card portbtn">
+                                    <img class="img-fluid rounded" src="images/blankCanvas.png">
+                                    <a href="https://blankcanvas-43876.firebaseapp.com/" target="_blank" class="overlay btn btn-primay">Blank Canvas - A Social Media Platform for Colorado Artists</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <br>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-4">
+                                <div class="card portbtn">
+                                    <img class="img-fluid rounded" src="images/friendfinder.png">
+                                    <a href="https://cryptic-caverns-57432.herokuapp.com/" target="_blank" class="overlay btn btn-primary">Friend Finder
+                                        <br>(Express and Node)</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
                                 <div class="card portbtn">
                                     <img class="img-fluid rounded" src="images/Crystals.png">
                                     <a href="https://patrickeast.github.io/crystals-assignment/" target="_blank" class="overlay btn btn-primay">Crystal Count</a>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-4">
                                 <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/rpg2.png">
-                                    <a href="https://patrickeast.github.io/rpg/" target="_blank" class="overlay btn btn-primary">RPG Game</a>
+                                    <img class="img-fluid rounded" src="images/Trivia.png">
+                                    <a href="https://patrickeast.github.io/trivia-game/" target="_blank" class="overlay btn btn-primary">Custom GameBoy Trivia App</a>
                                 </div>
                             </div>
                         </div>
                         <br>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-4">
                                 <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/Trivia.png">
-                                    <a href="https://patrickeast.github.io/trivia-game/" target="_blank" class="overlay btn btn-primary">Trivia Game</a>
+                                    <img class="img-fluid rounded" src="images/bamazon.png">
+                                    <a href="https://github.com/patrickeast/bamazon/" target="_blank" class="overlay btn btn-primary">MySQL CLI Bamazon App</a>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-4">
+                                <div class="card portbtn">
+                                    <img class="img-fluid rounded" src="images/Hangman.png">
+                                    <a href="https://patrickeast.github.io/Hangman-Game/" target="_blank" class="overlay btn btn-primay">Hangman (in Dev)</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
                                 <div class="card portbtn">
                                     <img class="img-fluid rounded" src="images/cassette.jpg">
                                     <a href="https://patrickeast.github.io/giphy/" target="_blank" class="overlay btn btn-primary">GIPHY Songs</a>
@@ -106,42 +119,19 @@
                         </div>
                         <br>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-4">
                                 <div class="card portbtn">
                                     <img class="img-fluid rounded" src="images/train.png">
                                     <a href="https://patrickeast.github.io/train-schedule/" target="_blank" class="overlay btn btn-primary">Train Schedule</a>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-4">
                                 <div class="card portbtn">
                                     <img class="img-fluid rounded" src="images/LIRI.png">
                                     <a href="https://github.com/patrickeast/liri-node-app" target="_blank" class="overlay btn btn-primary">LIRI Node App</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/nodeguess.png">
-                                    <a href="https://github.com/patrickeast/node-constructor-app/" target="_blank" class="overlay btn btn-primary">CLI Node Word Guess</a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/bamazon.png">
-                                    <a href="https://github.com/patrickeast/bamazon/" target="_blank" class="overlay btn btn-primary">MySQL CLI Bamazon App</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="card portbtn">
-                                    <img class="img-fluid rounded" src="images/friendfinder.png">
-                                    <a href="https://cryptic-caverns-57432.herokuapp.com/" target="_blank" class="overlay btn btn-primary">Friend Finder
-                                        <br>(Express and Node)</a>
-                                </div>
-                            </div>
-                            <div class="col-6">
+                            <div class="col-md-4">
                                 <div class="card portbtn">
                                     <img class="img-fluid rounded" src="images/burger.png">
                                     <a href="https://afternoon-springs-15789.herokuapp.com/" target="_blank" class="overlay btn btn-primary">MySQL Burger</a>
@@ -152,10 +142,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Spacer Column -->
-            <div class="col-md-1"></div>
             <!-- Connect with Me Content -->
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
                     <div class="card-header bg-white text-center">
                         Connect with Me
@@ -236,6 +224,14 @@
     <footer class="footer bg-dark">
         <p class="text-muted">&copy; 2018 Patrick East</p>
     </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 
