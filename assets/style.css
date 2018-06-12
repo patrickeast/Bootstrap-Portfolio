@@ -17,6 +17,7 @@ footer {
     border-top: 0.25px solid #52aa4a;
     text-align: center;
     font-size: 12px;
+    margin-top: 20px;
 }
 
 footer > p {
