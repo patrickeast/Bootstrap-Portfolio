@@ -1,7 +1,15 @@
-document.querySelectorAll("nav").on("scroll", function () {
-    this.addStyle("opacity: 0.2; transition: ease .2s;");
-});
+function checkScroll(){
+    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
 
-$("nav").scroll( function() {
-    
-})
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
+    }else{
+        $('.navbar').removeClass("scrolled");
+    }
+}
+
+if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}
