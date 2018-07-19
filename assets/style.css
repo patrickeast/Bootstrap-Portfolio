@@ -5,8 +5,9 @@ html {
 
 body {
     background-image: url("../images/bg-night.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -58,10 +59,6 @@ p {
     padding: 5px;
 }
 
-.nav-item a:visited {
-    color: #aaa;
-}
-
 .nav-item a:hover {
     transition: .3s ease;
     color: #52aa4a;
@@ -78,18 +75,13 @@ p {
 }
 .navbar-brand {
     font-size: 28px;
-    color: #aaa;
+    color: #444;
     text-align: center;
 }
 
 .navbar-brand:hover {
     transition: .3s ease;
     color: #52aa4a;
-}
-
-.navbar-brand:active {
-    transition: .3s ease;
-    color: #aa4aa2;
 }
 
 .navbar-toggler-icon {
